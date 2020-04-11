@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+#define PI 3.14
+int main()
+{
+	int r;
+	float C;
+	r=2;
+	C=2*PI*r;
+	printf("变量r的地址是%d\n",&r);
+	printf("半径开方的值是%f\n",sqrt(r));
+	printf("半径是%d,周长是%f\n",r,C);
+	return 0;
+}
